@@ -1,0 +1,151 @@
+/* header element*/
+.header li
+{
+    float: right;
+    display: inline;
+    padding-right:30px;
+    
+}
+.header 
+{
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    padding: 5px 3px; 
+    position: fixed;
+    top: 0;
+    z-index:1;
+    box-shadow: 5px 10px;
+}
+.header ul a
+{
+    text-decoration: none;
+    color: #666;
+}
+.header ul a:hover
+{
+    text-decoration: underline;
+    color: black;
+    font-size: 30px;
+}
+.logo 
+{
+    height: 110px;
+    width: 150px;
+    float: left;
+}
+/* services column */
+.columns3 
+{
+    display: flex;
+    background-color:#e0e8ea;
+    justify-content:space-evenly;
+
+}
+.columns3 > div
+{
+    background-color:#b3c8d0;
+    margin: 10px;
+    padding: 100px;
+    font-size: 30px;
+}
+
+.photo
+{
+    width: 250px;
+    margin: auto;
+}
+/* hero element */
+.heroimg 
+{
+    background-image:url("../img/h-img.png");
+    height: 500px;
+    width: 96%;
+    margin: 10px 30px 10px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.herotxt
+{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;  
+}        
+/* about */
+.columns2
+{
+    display: flex;
+    background-color:#e0e8ea;
+    justify-content:space-between;
+}
+
+.columns2 > div 
+{
+    background-color: #b3c8d0;
+    margin: 10px;
+    padding: 100px;
+    font-size: 20px;
+    font-style: bold;
+}
+/* experience */
+.column 
+{
+    margin: 10%;
+    padding: 20px;
+    font-size: 20px;
+    width:50%;
+    display: flex;
+    background-color:#e0e8ea;
+    justify-content:space-evenly;
+    flex-direction: column; 
+    flex-wrap: wrap;
+}
+.column> div 
+{
+    background-color: #7b939c;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    margin:10px;
+    justify-content: space-evenly;  
+}
+/* social link */
+.fa-facebook 
+{
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-linkedin 
+{
+    background: #007bb5;
+    color: white;
+}
+
+.fa 
+{
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    float: right;
+}
+/* footer element */
+
+.footer 
+{
+    background-color: grey;
+    color: white;
+    margin-top: 10px;
+    padding: 30px;
+    padding-right:30px;
+}
+
